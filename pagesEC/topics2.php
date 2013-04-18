@@ -305,7 +305,7 @@
 					</div>
 					<div class="span6">
 						<div class="well" style="height: 300px">
-							<h4>Succes Stories and Case Studies</h4>
+							<h4>Success Stories and Case Studies</h4>
 							<a class="btn btn-info">by popular</a> <a class="btn btn-success">by
 								latest</a>
 							<table class="table table-striped">
