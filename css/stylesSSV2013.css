@@ -1,0 +1,96 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+hr { 
+  height: 2px; color: #888 !important; background-color: #eee !important;
+}     
+h3 {
+  color:#5bb75b; 
+}
+.widget > div {       
+  padding: 3px 5px 3px 5px;             
+  background-color: #f9f9f9;  
+  border-bottom: 1px solid #ddd;      
+}
+.widget > div.title {       
+  font-weight: bold;       
+  margin-top: 5px;
+  background-color: #33a9c8;
+  color: white;
+  border-radius: 5px 5px 0px 0px; 
+}      
+.widget > div:nth-child(2n+0) {       
+  background-color: #f0f0f0; 
+}
+.widget > div:last-child {              
+  border-radius: 0px 0px 5px 5px;
+  margin-bottom: 5px;   
+}
+.widget.w1 div.title {
+  background-color: #0088cc;
+}
+.widget.w2 div.title {
+  background-color: orange;
+}
+.widget.w3 div.title {
+  background-color: green;
+}
+.widget.w4 div.title {
+  background-color: #33a9c8;
+}
+   
+      
+/* customized navbar inner color changed all the elements related to navbar inner and navbar inverse*/
+
+.navbar-inverse
+.navbar-inner{
+background: #20950d; /* Old browsers */
+background: -moz-linear-gradient(top,  #20950d 0%, #20950d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#20950d), color-stop(100%,#20950d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #20950d 0%,#20950d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #20950d 0%,#20950d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #20950d 0%,#20950d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #20950d 0%,#20950d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20950d', endColorstr='#20950d',GradientType=0 ); /* IE6-9 */
+border-color: #20950d;
+
+}
+
+
+/*.navbar .divider-vertical {
+    background-color: #ffffff;
+    border-right: 1px solid #ffffff;
+    }*/
+    
+    
+ .navbar .nav .active > a, .navbar .nav .active > a:hover {
+    background-color: #20950d;
+    }
+
+.navbar .nav > li > a {
+    color: #ffffff;
+    }
+ 
+ .navbar-inverse .divider-vertical 
+ {border-right-color:#20950d;
+  border-left-color: #ffffff;
+
+}
+    
+.navbar-inverse .nav li.dropdown>.dropdown-toggle .caret {
+border-top-color: #ffffff;
+border-bottom-color: #ffffff;
+}
+    
+    
+  .navbar-fixed-top .brand {
+    color: #ffffff;color: #ffffff;
+    }
+    
+    .navbar .nav > li > a:hover {color:white;}
+    
+    .navbar .nav .active > a, .navbar .nav .active > a:hover {color:white;}
+    
+    
+      
